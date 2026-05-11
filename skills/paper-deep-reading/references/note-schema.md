@@ -3,17 +3,15 @@
 Use this schema when creating or revising a paper note. Keep headings stable so notes remain comparable across papers.
 
 ```markdown
-# 【VENUE‘YEAR】Paper Title
+# Paper Title
 
 ## Metadata
 
 - Title:
 - Authors:
-- Venue / Year:
-- Note Name: 【VENUE‘YEAR】short-title
-- Paper:
-- Code:
-- Dataset / Artifact:
+- Institution:
+- Publication:
+- Year:
 - Scope / Subfield:
 - Tags:
 - Status: DONE
@@ -47,13 +45,6 @@ Use this schema when creating or revising a paper note. Keep headings stable so 
 - 背景：
 - 问题：
 - Gap：
-
-## Threat Model / Assumptions (Optional)
-
-- 攻击者或参与者能力：
-- 链上 / 链下假设：
-- 市场、流动性、排序、预言机或网络假设：
-- 不覆盖的情况：
 
 ## Method
 
@@ -93,23 +84,15 @@ Use this schema when creating or revising a paper note. Keep headings stable so 
 
 ## Limitations
 
-- 威胁模型、假设或适用范围的限制：
-- 数据集、baseline、metric、ablation 或复现性的不足：
-- 在真实 DeFi 场景中可能失效的条件：
+- 假设或适用范围等的限制：
+- 复现性、成本等的不足：
+- 在真实应用场景中可能失效的条件：
 
 ## My Takeaways
 
-- 对 DeFi / 区块链安全研究的启发：
+- 对后续研究的启发：
 - 可复用的方法：
 - 可能的后续问题：
-
-## Related Papers
-
-- 前置阅读：
-- 后续阅读：
-- 可对比论文：
-- 最接近的相关工作：
-- 关键差异：
 
 ## Open Questions
 
@@ -117,8 +100,6 @@ Use this schema when creating or revising a paper note. Keep headings stable so 
 ```
 
 If a section does not apply, keep the heading and write `N/A` or `TBD` with a short reason.
-
-For DeFi papers, `Scope / Subfield` should capture the paper's narrow research lane, not every keyword. Examples: `攻击检测`, `全范围恶意检测`, `攻击溯源`, `价格操纵检测`, `MEV 测量`, `套利检测`, `Rug Pull 检测`, `图方法检测`, `规则判断检测`, `形式化验证`, `经济安全分析`, `借贷清算风险`, `跨链攻击分析`.
 
 Use an internal critical analysis step: goal, prior practice, novelty, impact, risks, cost, and evidence. Do not add a separate critical-review section. Convert that judgment into `Strengths`, `Limitations`, and `My Takeaways`. When judging external impact or follow-up work, use sources retrieved in the current turn instead of memory.
 
