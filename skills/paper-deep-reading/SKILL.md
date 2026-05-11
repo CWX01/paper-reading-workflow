@@ -81,7 +81,7 @@ For the full note schema, read `references/note-schema.md` (or `references/revie
 
 When the user wants notes saved in the current repo:
 
-- Use filenames like `0Report_<paper-short-title>.md`, such as `0Report_attention is all you need.md`.
+- Use filenames like `0Report_<paper-title>.md`, such as `0Report_attention is all you need.md`.
 - Prefer editing an existing note over creating duplicates for the same paper.
 
 ## Quality Bar
