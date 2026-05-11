@@ -11,7 +11,7 @@ Use this skill to turn a paper into a durable Chinese research note, not a loose
 
 This skill handles both research papers and review articles (综述). The workflow below applies to both; review-specific branches are noted at each step where they differ. Always determine the paper type before starting.
 
-For the full note schema, read `references/note-schema.md` (or `references/review-article-note-schema.md` for review articles) when creating or revising a note file.
+For the full note schema, read `references/note-schema.md` (or `references/review-note-schema.md` for review articles) when creating or revising a note file.
 
 ## Workflow
 
@@ -60,7 +60,7 @@ For the full note schema, read `references/note-schema.md` (or `references/revie
    - If evaluating post-publication impact, adoption, or follow-up work, search the web in the same turn and cite the sources used. Do not cite impact from memory.
 
 7. Write the note in Chinese.
-   - Use the schema in `references/note-schema.md` (or `references/review-article-note-schema.md` for review articles).
+   - Use the schema in `references/note-schema.md` (or `references/review-note-schema.md` for review articles).
    - Keep paper terms precise; preserve key English terms in parentheses when translation may lose meaning.
    - Separate the authors' claims from your analysis.
    - After `TL;DR`, add a short `毒舌评论`: one sharp paragraph or 2-3 bullets that gives a hard, fact-grounded judgment on the paper's real value, biggest weakness, possible overclaim, or most fragile assumption. It must not be a summary. Make the verdict sting, but do not invent defects or state uncertain criticisms as facts.
